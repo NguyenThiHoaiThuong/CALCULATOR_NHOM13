@@ -55,7 +55,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblDec: UIButton!
     @IBOutlet weak var lblDisplay: UILabel!
     @IBOutlet weak var lblHeader: UILabel!
-    @IBAction func changeOption(_ sender: UIButton)
+    /*@IBAction func changeOption(_ sender: UIButton)
     {
         let name = sender.titleLabel?.text
         if(name == "Degrees")
@@ -73,7 +73,7 @@ class ViewController: UIViewController {
             dec = false
         }
         
-    }
+    }*/
     @IBAction func onClickPi(_ sender: UIButton) {
         if(!string.contains("=")){
         if (string==""||string.characters.count<65){
@@ -107,7 +107,7 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func onClickSinCosTanLn(_ sender: UIButton) {
+    /*@IBAction func onClickSinCosTanLn(_ sender: UIButton) {
         var j = -1;
         let arr = Array(string.characters)
         let length = string.characters.count
@@ -319,7 +319,7 @@ class ViewController: UIViewController {
             
         }
         self.lblDisplay.text = string
-    }
+    }*/
     @IBAction func onClickNumber(_ sender: UIButton) {
         if(!string.contains("=")){
         if (string==""||string.characters.count<65){
